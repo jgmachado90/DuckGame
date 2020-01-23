@@ -7,6 +7,7 @@ public class EnemyJellyFish : Enemy
 {
     [SerializeField] float playerImpulse;
     [SerializeField] float trailTime;
+   
     private JellyFishParticles jellyFishParticles;
 
     private void Start()
@@ -18,7 +19,7 @@ public class EnemyJellyFish : Enemy
     {
         if (collision.tag == "Player")
         {
-            collision.transform.GetComponent<Rigidbody2D>().AddForce(Vector2.up * -collision.GetComponent<Rigidbody2D>().velocity.y *2f, ForceMode2D.Impulse);
+            collision.transform.GetComponent<Rigidbody2D>().AddForce(Vector2.up *  Mathf.Sqrt(-collision.GetComponent<Rigidbody2D>().velocity.y) * playerImpulse, ForceMode2D.Impulse);
             Camera.main.GetComponent<ShakeBehaviour>().TriggerShake(-collision.GetComponent<Rigidbody2D>().velocity.y);
             StartCoroutine(PlayTrailEffectsWhileBouncing(collision));
             OnDying();

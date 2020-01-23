@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alive: 0
-  playerImpulse: 15
+  playerImpulse: 6
   trailTime: 1
 --- !u!1 &4018754415358792233
 GameObject:
