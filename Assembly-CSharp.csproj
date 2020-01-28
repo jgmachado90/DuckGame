@@ -124,6 +124,7 @@
     <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonLightFlicker.cs" />
     <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonRotation.cs" />
     <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonSoundSpawn.cs" />
+    <Compile Include="Assets\SoundManager.cs" />
     <Compile Include="Assets\_aDuck Game\Subsystems\LevelManager\LevelManager.cs" />
     <Compile Include="Assets\_aDuck Game\Subsystems\Main\Entities\Enemy\Scripts\Enemy.cs" />
     <Compile Include="Assets\_aDuck Game\Subsystems\Main\Entities\Enemy\Scripts\EnemyJellyFish.cs" />
