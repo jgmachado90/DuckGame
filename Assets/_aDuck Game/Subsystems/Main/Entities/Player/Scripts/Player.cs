@@ -85,7 +85,7 @@ public class Player : MonoBehaviour
         playerParticles.deathByJellyParticles.Play();
         playerAnimator.SetBool("Jump", true);
         LevelManager.instance.StartCoroutine(LevelManager.instance.ResetGameCoroutine());
-
+        DeathCounter.instance.Add();
     }
 
    
