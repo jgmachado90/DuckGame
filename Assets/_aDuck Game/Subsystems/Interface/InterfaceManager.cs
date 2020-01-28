@@ -5,12 +5,10 @@ using UnityEngine;
 public class InterfaceManager : MonoBehaviour
 {
     public static InterfaceManager instance = null;
-    public 
+    
 
     void Awake()
     {
-        
-
         //Check if there is already an instance of SoundManager
         if (instance == null)
             //if not, set it to this.
