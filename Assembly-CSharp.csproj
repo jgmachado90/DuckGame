@@ -63,11 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DeathByFloor.cs" />
-    <Compile Include="Assets\DeathCounter.cs" />
     <Compile Include="Assets\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
     <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
-    <Compile Include="Assets\InterfaceManager.cs" />
     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimSpeed.cs" />
     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimalScripts\AnimalManager.cs" />
     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimalScripts\AnimalState.cs" />
@@ -126,7 +123,9 @@
     <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonLightFlicker.cs" />
     <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonRotation.cs" />
     <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonSoundSpawn.cs" />
-    <Compile Include="Assets\SoundManager.cs" />
+    <Compile Include="Assets\_aDuck Game\Subsystems\Cenaries\DeathByFloor.cs" />
+    <Compile Include="Assets\_aDuck Game\Subsystems\Interface\DeathCounter.cs" />
+    <Compile Include="Assets\_aDuck Game\Subsystems\Interface\InterfaceManager.cs" />
     <Compile Include="Assets\_aDuck Game\Subsystems\LevelManager\LevelManager.cs" />
     <Compile Include="Assets\_aDuck Game\Subsystems\Main\Entities\Enemy\Scripts\Enemy.cs" />
     <Compile Include="Assets\_aDuck Game\Subsystems\Main\Entities\Enemy\Scripts\EnemyJellyFish.cs" />
@@ -139,6 +138,7 @@
     <Compile Include="Assets\_aDuck Game\Subsystems\Main\Goal\Goal.cs" />
     <Compile Include="Assets\_aDuck Game\Subsystems\Main\Goal\GoalMovement.cs" />
     <Compile Include="Assets\_aDuck Game\Subsystems\Main\ShakeBehaviour.cs" />
+    <Compile Include="Assets\_aDuck Game\Subsystems\Sound\SoundManager.cs" />
     <None Include="Assets\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
